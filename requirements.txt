@@ -1,1 +1,11 @@
-torch
+# Core dependencies for Custom LLM
+torch>=1.9.0
+requests>=2.25.0
+
+# Optional dependencies for enhanced functionality
+numpy>=1.21.0
+matplotlib>=3.3.0  # For training visualization (if needed)
+
+# Development dependencies (uncomment if needed)
+# jupyter>=1.0.0    # For notebook development
+# tensorboard>=2.7.0  # For training monitoring
